@@ -1,0 +1,63 @@
+/*-------------------------------------------------------------------------------------------*/
+/* PAGE ECORESPONSABLE PARTENAIRES  EVENEMENTS */
+
+.intro {
+    padding: 2rem;
+}
+
+/* Photos décal déco */
+.bloc-img {
+    display: grid;
+    padding: 2rem 4rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 6%;
+}
+
+.bloc1 {
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.bloc2 {
+    grid-column: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+
+
+
+/*********************************************************************************************/
+/*-------------------------------------------------------------------------------------------*/
+/*********************************************************************************************/
+
+@media screen and (min-width: 1024px) {
+
+    /*PAGE PARTENAIRE*/
+    .intro {
+        padding: 2rem 4rem 5rem 4rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .bloc-img {
+        width: 50%;
+        /* padding: 0 2rem; */
+        justify-content: space-between;
+        gap: 8%;
+    }
+
+    .texte-intro {
+        align-items: center;
+        align-content: center;
+        padding-left: 2rem;
+        width: 50%;
+    }
+
+    .img-art {
+        width: 20vw;
+    }
+
+}

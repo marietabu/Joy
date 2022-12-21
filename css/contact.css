@@ -1,0 +1,55 @@
+/*-------------------------------------------------------------------------------------------*/
+/* PAGE CONTACT */
+
+.grid-contact {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 4;
+    align-items: center;
+    gap: 3rem;
+}
+
+.card-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.adr {
+    margin: 4rem 0;
+}
+
+.plan-acc {
+    margin: 3.5rem 0 0rem 0;
+}
+
+iframe {
+    width: 80vw;
+    height: 40vh;
+}
+
+
+/*********************************************************************************************/
+/*-------------------------------------------------------------------------------------------*/
+/*********************************************************************************************/
+
+@media screen and (min-width: 1024px) {
+
+    /* Page contact */
+    .grid-contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    iframe {
+        width: 80vw;
+        height: 100vh;
+    }
+
+    .fond-vert {
+        background-color: transparent;
+    }
+}
